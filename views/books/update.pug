@@ -1,0 +1,16 @@
+h1 Update-books
+
+form(action="/books/update", method="POST", class ="")
+        .form-group
+            label(for="name") Name
+            input#name.form-control(name= "name", type="text", value= book && book.name ? book.name : "" )
+
+        .form-group
+            label(for="phone") Phone
+            input#phone.form-control(name= "phone", type="text", value= book && book.phone ? book.phone : "" )
+
+        .form-group
+            label(for="id") Id
+            input#id.form-control(name= "id", type="text", value= book ? book.id : "")
+
+        button.btn.btn-primary Update

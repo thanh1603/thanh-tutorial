@@ -1,0 +1,93 @@
+.navbar {
+    background: #C9CCD3 !important;
+    background-image: linear-gradient(-180deg, rgba(255,255,255,0.50) 0%, rgba(0,0,0,0.50) 100%) !important;
+    background-blend-mode: lighten;
+    height: 40px;
+    /* display: flex; */
+}
+.navbar img {
+    margin-top: 20px;;
+    margin-left: 5rem;
+    transform: scale(5);
+}
+.container-fluid {
+    position: relative;
+}
+.navbar form {
+    display: flex;
+    position: absolute;
+    margin-left: 30rem;
+}
+
+.navbar-nav  {
+    position: absolute;
+    right: 10rem;
+    color: black !important;
+}
+
+.login {
+    border: 1px solid #ffffff;
+    background-color: white;
+    height: 29px;
+    width: 59px;
+    text-align: center;
+    border-radius: 5px;
+    position: absolute;
+    right: 50px;
+    
+}
+.login a {
+    text-decoration: none;
+    color: black;
+}
+.login a:hover {
+    color: blue;
+}
+.carousel img{
+    width: 100% !important;
+    height: 400px !important;
+    background-size: cover !important;
+    background-position: center !important;
+    
+}
+@media (max-width: 480px){
+.header{
+    flex-direction: column !important;
+    }
+}
+.conttent-1 {
+    padding-top: 45px;
+}
+#slides{
+    border-radius: 5px;
+}
+.card {
+    display: flex;
+}
+.owl-theme:hover {
+    background-color: transparent;
+}
+.item {
+    border: 1px solid #DDD;
+    border-radius: 3px;
+}
+.item img {
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    background-size: cover !important;
+    background-position: center !important;
+}
+.item h5 {
+    margin: 7px 5px 0 5px;
+    font-size: 11pt;
+}
+.item p {
+    margin: 0 5px 5px 5px;
+    font-size: 10pt;
+}
+.form-control {
+    border: 0;
+}
+#searchItem {
+    /* width: 100%; */
+}
